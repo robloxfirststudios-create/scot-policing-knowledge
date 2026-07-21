@@ -1,0 +1,24 @@
+site_name: Police Scotland Knowledge Base
+site_description: A knowledge base for Police Scotland — draft legal guidance and reference material (not legal advice).
+site_author: Police Scotland
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+
+nav:
+  - Home: index.md
+  - Laws and Regulations:
+      - Criminal Damage (Scotland): laws-and-regulations/criminal-damage-act-scotland.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
